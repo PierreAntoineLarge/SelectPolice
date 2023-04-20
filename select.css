@@ -1,0 +1,50 @@
+.result{
+
+    margin-left: 37%;
+    background-image: url(noir.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    color: #fff;
+    padding: 20px;
+}
+
+.monTexte {
+    text-align: center;
+}
+
+#monTexte1{
+    margin-top: 10%;
+    font-size: x-large;
+}
+
+.title{
+    margin: 5%;
+    margin-left: 8%;
+    font-weight: 800;
+}
+
+.h2{
+    font-weight: 100!important;
+}
+
+.d-flex{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 60%;
+}
+
+#monMenuDeroulant1{
+    margin: 2%;
+    margin-left: 5%;
+}
+
+#monMenuDeroulant2{
+    margin: 2%;
+    margin-left: 5%;
+}
+
+#payment-button{
+    font-size: xx-large;
+    margin-left: 37%;
+}
