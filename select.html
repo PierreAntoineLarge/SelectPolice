@@ -8,9 +8,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <title>Font changer</title>
 
-<script src="./app.js" type="module">
-</script>
-
 </head>
 <body>
     <section class="container pt-5" id="whereAre">
@@ -18,12 +15,12 @@
         <h2 class="h2"> 1- Choisissez votre texte</h2>
         <form class="d-flex pb-4" id="champ1">
 
-            <input required="" class="form-control" type="text" placeholder="Donald Trump" name="title" data-com.bitwarden.browser.user-edited="yes">
-            <button id="submit-btn" class="btn btn-primary">Valider</button>
+            <input required="" class="form-control" id="montexte1" type="text" placeholder="Donald Trump" name="title" data-com.bitwarden.browser.user-edited="yes">
+            <div id="submit-btn" class="btn btn-primary">Valider</div>
         </form>
         <form class="d-flex pb-4" id="champ2">
-            <input required="" class="form-control" type="text" placeholder="Président" name="title" data-com.bitwarden.browser.user-edited="yes">
-            <button id="submit-btn" class="btn btn-primary">Valider</button>
+            <input required="" class="form-control" id="montexte2" type="text" placeholder="Président" name="title" data-com.bitwarden.browser.user-edited="yes">
+            <div id="submit-btn" class="btn btn-primary">Valider</div>
         </form>
             <ul class="list-group">
             </ul>
@@ -53,6 +50,11 @@
         <button id="payment-button" class="btn btn-primary">Commander</button>
     </section>
 </body>
+
+
+<script src="./app.js" type="module">
+</script>
+
 </html>
 
 

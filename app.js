@@ -35,5 +35,24 @@ document.getElementById('monMenuDeroulant1').addEventListener('change', function
     }
   });
   
-  document.getElementById('montexte')
+  document.getElementById('montexte1').addEventListener('change', function(event){
+    
+    const newContent1 = event.target.value;
+    changeText1(newContent1)
+  })
 
+  document.getElementById('montexte2').addEventListener('change', function(event){
+    console.log(event.target.value)
+    const newContent2 = event.target.value;
+    changeText2(newContent2)
+  })
+
+function changeText1(text1){
+    const textToReplace1 = document.getElementById('monTexte1');
+    textToReplace1.innerText = text1;
+}
+
+function changeText2(text2){
+    const textToReplace2 = document.getElementById('monTexte2');
+    textToReplace2.innerText = text2;
+}
