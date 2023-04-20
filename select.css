@@ -46,5 +46,10 @@
 
 #payment-button{
     font-size: xx-large;
-    margin-left: 37%;
+    margin-left: 45%;
+    margin-bottom: 12%;
+}
+
+.label{
+    margin-left: 5%;
 }
