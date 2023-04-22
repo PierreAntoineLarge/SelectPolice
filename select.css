@@ -8,6 +8,19 @@
     padding: 20px;
 }
 
+.bigcontainer{
+    margin: 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.subcontainer {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
 .monTexte {
     text-align: center;
 }
@@ -41,6 +54,7 @@ h5{
     .d-flex{
 margin-right: 60%;
     }
+
 }
 
 #Title{
@@ -75,4 +89,7 @@ margin-right: 60%;
     margin: 3%;
 }
 
-.bigcontainer{ }
+.label2{
+    margin-right: 4px;
+}
+
