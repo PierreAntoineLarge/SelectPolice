@@ -55,6 +55,10 @@ h5{
 margin-right: 60%;
     }
 
+    #order{
+        align-items: right;
+        justify-content: right!important;
+    }
 }
 
 #Title{
