@@ -1,0 +1,57 @@
+.result{
+    margin: auto;
+    background-image: url(noir.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    color: #fff;
+    padding: 20px;
+}
+
+.bigcontainer{
+    margin: 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.subcontainer {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.monTexte {
+    text-align: center;
+}
+
+#monTexte1{
+    margin-top: 10%;
+    font-size: x-large;
+}
+
+
+.h2{
+    font-weight: 100!important;
+}
+
+h5{
+    text-align: center!important;
+}
+
+
+.containerflex{
+    margin: 2px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col{
+    margin: 3%;
+}
+
+.label2{
+    margin-right: 4px;
+}
+
